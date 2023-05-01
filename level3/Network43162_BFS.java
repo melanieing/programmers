@@ -1,5 +1,13 @@
 import java.util.*;
 
+/**
+ * 43162. 네트워크
+ * 네트워크 : 컴퓨터 상호 간에 정보를 교환할 수 있도록 연결된 형태
+ * 네트워크의 개수 구하기 (dfs, bfs 모두 사용가능)
+ * 컴퓨터의 개수 : 1 <= n <= 200
+ * 컴퓨터 : 0 <= computers[i] <= n-1
+ */
+
 class Solution { /* BFS 사용 */
     
     static boolean[] check;
