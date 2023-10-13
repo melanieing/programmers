@@ -1,7 +1,10 @@
 import java.util.HashSet;
 
+/**
+ * 1845. 폰켓몬
+ * 가장 많은 종류의 폰켓몬을 선택하는 방법을 찾아, 그때의 폰켓몬 종류 번호의 개수를 return
+ */
 public class Pokemon1845 {
-// 프로그래머스 1845. 폰켓몬
     public static void main(String[] args) {
         int[] nums = {3,3,3,2,2,4};
         System.out.println(solution(nums));
