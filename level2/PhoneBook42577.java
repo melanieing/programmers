@@ -13,7 +13,7 @@ public class PhoneBook42577 {
         PhoneBook42577 q = new PhoneBook42577();
         String[] phone_book = {"119", "97674223", "1195524421"};
 
-        System.out.println(q.solution(phone_book));
+        System.out.println(q.solution(phone_book)); //false
     }
 
     public boolean solution(String[] phone_book) {
@@ -25,7 +25,7 @@ public class PhoneBook42577 {
 
         for (String phoneNum : phone_book) {
             for (int i = 1; i < phoneNum.length(); i++) {
-                if (set.contains(phoneNum.substring(0, i))) {
+                if (set.contains(phoneNum.substring(0, i))) { // 접두어만 찾기
                     return false;
                 }
             }
