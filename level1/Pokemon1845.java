@@ -6,11 +6,13 @@ import java.util.HashSet;
  */
 public class Pokemon1845 {
     public static void main(String[] args) {
+        Pokemon1845 q = new Pokemon1845();
         int[] nums = {3,3,3,2,2,4};
-        System.out.println(solution(nums));
+
+        System.out.println(q.solution(nums));
     }
 
-    public static int solution(int[] nums) {
+    public int solution(int[] nums) {
 
         // 1. 가질 수 있는 폰켓몬 수 구하기
         int answer = nums.length / 2;
