@@ -2,7 +2,7 @@ import java.util.*;
 
 // 17683. 방금그곡
 
-class Solution {
+class ThatSong17683 {
     public String solution(String m, String[] musicinfos) {
         String answer = "";
         int maxTime = -1;

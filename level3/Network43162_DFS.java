@@ -8,7 +8,7 @@ import java.util.*;
  * 컴퓨터 : 0 <= computers[i] <= n-1
  */
 
-class Solution { /* DFS 사용 */
+class Network43162_DFS { /* DFS 사용 */
     
     // 연결된 노드끼리 그룹을 지어서 개수를 카운팅하기
     

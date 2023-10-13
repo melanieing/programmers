@@ -1,4 +1,4 @@
-class Solution {
+class Quotient120805 {
   // 코딩테스트 입문 : 몫 구하기
     public int solution(int num1, int num2) {
         int answer = 0;

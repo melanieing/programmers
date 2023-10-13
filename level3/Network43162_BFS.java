@@ -8,7 +8,7 @@ import java.util.*;
  * 컴퓨터 : 0 <= computers[i] <= n-1
  */
 
-class Solution { /* BFS 사용 */
+class Network43162_BFS { /* BFS 사용 */
     
     static boolean[] check;
     static Queue<Integer> q = new LinkedList<>();
