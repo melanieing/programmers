@@ -4,9 +4,9 @@ import java.util.*;
  * 42576. 완주하지 못한 선수
  * 완주하지 못한 선수의 이름을 return
  */
-public class RunnerNotFinishYet {
+public class RunnerNotFinishYet42576 {
     public static void main(String[] args) {
-        RunnerNotFinishYet q = new RunnerNotFinishYet();
+        RunnerNotFinishYet42576 q = new RunnerNotFinishYet42576();
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};
 
