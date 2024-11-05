@@ -74,7 +74,6 @@ public class Distancing81302 {
     }
 
     // exclude 방향을 제외한 네 방향에 다른 응시자가 있는지 검사
-    // B. 빈 테이블과 인접한 위치 중 응시자가 있다면 거리두기를 지키지 않은 것
     private boolean isNextToVoluteer(char[][] room, int x, int y, int exlude) {
         for (int d = 0; d < 4; d++) {
             if (d == exlude) continue;
